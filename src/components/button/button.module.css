@@ -1,0 +1,26 @@
+.button {
+  width: 100%;
+  border: 0;
+  border-radius: 10px;
+  padding: 15px;
+  font-size: 14px;
+  font-weight: 900;
+  background-color: transparent;
+  color: hsl(224, 23%, 55%);
+  cursor: pointer;
+}
+
+.button:hover {
+  color: hsl(223, 47%, 23%);
+}
+
+.btn-primary {
+  background-color: hsl(245, 75%, 52%);
+  color: white;
+  box-shadow: 0 20px 20px hsl(245, 75%, 52%, 0.3);
+}
+
+.btn-primary:hover {
+  color: white;
+  background-color: hsl(223, 47%, 23%);
+}
